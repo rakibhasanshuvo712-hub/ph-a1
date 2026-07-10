@@ -74,6 +74,8 @@ h2{
     align-items: center;
     align-content: center;
     gap: 10px;
+    flex-wrap: 10px;
+    border-radius: 10px;
 }
 .why-attend {
     padding: 80px 20px;
@@ -117,4 +119,11 @@ h2{
 .feature-card p {
     color: #6b7280;
     line-height: 1.6;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    text-align: center;
 }
