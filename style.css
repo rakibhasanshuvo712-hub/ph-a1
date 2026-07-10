@@ -51,3 +51,27 @@
 .text{
     text-align: center;
 }
+.tag{
+    color: green;
+}
+h2{
+    text-align: center;
+}
+.p{
+    text-align: center;
+}
+.price-card{
+    background-color:wheat;
+}
+.price-card2{
+    background-color: black;
+    color: white;
+}
+.pricing{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
