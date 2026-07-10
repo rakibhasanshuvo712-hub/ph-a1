@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px ;
+
+}
+.logo{
+    display: flex;
+    gap: 10px;
+}
+.btn{
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.hero{
+    height: 600px;
+    background-image: url(./assets/banner.jpg);
+    background-position: center;
+    align-items: center;
+    display: grid;
+    background-position: center;
+    color: white;
+    text-align: center;
+    gap: 130px;
+}
+.hero-content{
+    text-align: center;
+    gap: 50px;
+}
+.hero h1{
+    text-align: center;
+}
+.hero p{
+    text-align: center;
+}
+.hero button{
+    align-items: center;
+}
