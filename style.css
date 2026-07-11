@@ -12,7 +12,13 @@
 .btn{
     background-color: #2563eb;
     color: white;
-    border-radius: 4px;
+    border-radius: 5px;
+    border-color: #255acb;
+    padding: 12px 22px;
+}
+.btn:hover{
+    background-color: cyan;
+    cursor: pointer;
 }
 .menu{
     display: flex;
@@ -20,7 +26,7 @@
     gap: 25px;
 }
 .hero{
-    height: 600px;
+    height: 500px;
     background-image: url(./assets/banner.jpg);
     background-position: center;
     align-items: center;
@@ -28,20 +34,21 @@
     background-position: center;
     color: white;
     text-align: center;
-    gap: 130px;
 }
 .hero-content{
     text-align: center;
-    gap: 50px;
 }
 .hero h1{
     text-align: center;
+    margin-bottom: 20px;
 }
 .hero p{
     text-align: center;
+    margin-bottom: 30px;
 }
 .hero button{
     align-items: center;
+    margin-top: 180px;
 }
 .speakers{
     display: grid;
@@ -61,8 +68,9 @@ h2{
     text-align: center;
 }
 .price-card{
-    background-color:wheat;
+    background-color: white;
     border-radius: 10px;
+    box-shadow: .5px .5px 1px 1px darkblue;
 }
 .price-card2{
     background-color: black;
@@ -80,6 +88,9 @@ h2{
     flex-wrap: 20px;
     border-radius: 20px;
     text-align: left;
+}
+.l{
+    padding-left: 16px;
 }
 .why-attend {
     padding: 80px 20px;
@@ -133,11 +144,24 @@ h2{
 }
 .b{
     width: 100%;
-    border-radius: 7px;
+    border-radius: 5px;
+    padding: 10px 40px;
+    
 
 }
+.b:hover{
+    cursor: pointer;
+    background-color: chartreuse;
+}
+
 .b1{
     width: 100%;
-    border-radius: 7px;
+    padding: 10px 40px;
+    border-radius: 5px;
     background-color: #2563eb;
+}
+.b1:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+
 }
